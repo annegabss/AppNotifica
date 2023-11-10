@@ -27,6 +27,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let coordinator = LoginCoordinator(navigationController: navigationController)
         
         // mudar só o LoginCoordinator para mudar a tela principal
+        //comentário
         
         coordinator.start()
     }
