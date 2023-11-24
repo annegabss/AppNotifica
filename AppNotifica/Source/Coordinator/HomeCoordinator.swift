@@ -6,25 +6,24 @@
 //
 
 import Foundation
-class ClassName: ViewDefault {
-    //MARK: - Closures
+import UIKit
+class HomeCoordinator: Coordinator {
     
-    //MARK: - Proports
+    private let navigationController: UINavigationController
     
-    //MARK: - Inits
+    lazy var homeViewController: HomeViewController = {
+        let viewController = HomeViewController()
+        return viewController
+    }()
     
-    override init(frame: CGReact){
-        super.init(frame: frame)
-        setupViewElements()
+    init (navigationController: UINavigationController ) {
+            self.navigationController = navigationController
+
     }
     
-    required init? (coder: NSCoder){
-        fatalError("Init(coder:) has not been implemented")
+    func start () {
+        let viewController = HomeViewController()
+        self.navigationController.pushViewController(viewController, animated: true)
         
     }
-    
-    override func setupVisualElements(){
-        supersetupVisualElements()
-    }
-    
 }

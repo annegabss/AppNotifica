@@ -6,16 +6,19 @@
 //
 
 import Foundation
-class HomeView: ViewDefault {
+import UIKit
+
+class HomeView:UIView {
     //MARK: - Closures
     
     //MARK: - Proports
     
     //MARK: - Inits
     
-    override init(frame: CGReact){
+    override init(frame: CGRect){
         super.init(frame: frame)
-        setupViewElements()
+        setupVisualElements()
+        self.backgroundColor = .viewBackGroundColor
     }
     
     required init? (coder: NSCoder){
@@ -23,8 +26,8 @@ class HomeView: ViewDefault {
         
     }
     
-    override func setupVisualElements(){
-        supersetupVisualElements()
+    func setupVisualElements(){
+      //  setupVisualElements()
     }
     
 }

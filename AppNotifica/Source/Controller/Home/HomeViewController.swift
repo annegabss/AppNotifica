@@ -6,3 +6,33 @@
 //
 
 import Foundation
+import UIKit
+
+class HomeViewController: UIViewController {
+    
+    //MARK: -  Clouseres
+    
+    //cria uma variável que é do
+    
+    lazy var homeView: HomeView = {
+        let homeView = HomeView()
+        
+        
+        return homeView
+    }()
+    
+    override func loadView(){
+        self.view = homeView
+    }
+    
+    // é executado quando está carregando
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "Home"
+        
+        self.navigationController?.navigationBar.prefersLargeTitles=true
+        
+    }
+    
+}
+
