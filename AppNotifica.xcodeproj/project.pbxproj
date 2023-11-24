@@ -22,6 +22,14 @@
 		C05CEA302AFE650200C12B50 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CEA2F2AFE650200C12B50 /* Coordinator.swift */; };
 		C05CEA322AFE658600C12B50 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05CEA312AFE658600C12B50 /* LoginCoordinator.swift */; };
 		C05CEA362AFE67BD00C12B50 /* logo-launch-screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C05CEA352AFE67BD00C12B50 /* logo-launch-screen@2x.png */; };
+		C0CEA17C2B10D03B000349D3 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA17B2B10D03B000349D3 /* UIColor+.swift */; };
+		C0CEA1802B10D06F000349D3 /* LabelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA17F2B10D06F000349D3 /* LabelDefault.swift */; };
+		C0CEA1822B10D080000349D3 /* TextFieldDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1812B10D080000349D3 /* TextFieldDefault.swift */; };
+		C0CEA1842B10D08C000349D3 /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1832B10D08C000349D3 /* ButtonDefault.swift */; };
+		C0CEA1862B10D097000349D3 /* ImageDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1852B10D097000349D3 /* ImageDefault.swift */; };
+		C0CEA18A2B10D11B000349D3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1892B10D11B000349D3 /* RegisterView.swift */; };
+		C0CEA18C2B10D137000349D3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA18B2B10D137000349D3 /* RegisterViewController.swift */; };
+		C0CEA18E2B10D18F000349D3 /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA18D2B10D18F000349D3 /* RegisterCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +69,14 @@
 		C05CEA2F2AFE650200C12B50 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		C05CEA312AFE658600C12B50 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		C05CEA352AFE67BD00C12B50 /* logo-launch-screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-launch-screen@2x.png"; sourceTree = "<group>"; };
+		C0CEA17B2B10D03B000349D3 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		C0CEA17F2B10D06F000349D3 /* LabelDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDefault.swift; sourceTree = "<group>"; };
+		C0CEA1812B10D080000349D3 /* TextFieldDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDefault.swift; sourceTree = "<group>"; };
+		C0CEA1832B10D08C000349D3 /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		C0CEA1852B10D097000349D3 /* ImageDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDefault.swift; sourceTree = "<group>"; };
+		C0CEA1892B10D11B000349D3 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		C0CEA18B2B10D137000349D3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C0CEA18D2B10D18F000349D3 /* RegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +169,8 @@
 		C05CEA262AFE5CFA00C12B50 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C0CEA17E2B10D05B000349D3 /* Infrastructure */,
+				C0CEA17D2B10D046000349D3 /* Extesions */,
 				C05CEA282AFE5D2A00C12B50 /* Controller */,
 				C05CEA272AFE5D0600C12B50 /* Coordinator */,
 			);
@@ -164,6 +182,7 @@
 			children = (
 				C05CEA2F2AFE650200C12B50 /* Coordinator.swift */,
 				C05CEA312AFE658600C12B50 /* LoginCoordinator.swift */,
+				C0CEA18D2B10D18F000349D3 /* RegisterCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -171,10 +190,47 @@
 		C05CEA282AFE5D2A00C12B50 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C0CEA1882B10D106000349D3 /* Register */,
+				C0CEA1872B10D0E8000349D3 /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C0CEA17D2B10D046000349D3 /* Extesions */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA17B2B10D03B000349D3 /* UIColor+.swift */,
+			);
+			path = Extesions;
+			sourceTree = "<group>";
+		};
+		C0CEA17E2B10D05B000349D3 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA17F2B10D06F000349D3 /* LabelDefault.swift */,
+				C0CEA1812B10D080000349D3 /* TextFieldDefault.swift */,
+				C0CEA1832B10D08C000349D3 /* ButtonDefault.swift */,
+				C0CEA1852B10D097000349D3 /* ImageDefault.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		C0CEA1872B10D0E8000349D3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
 				C05CEA292AFE5ED700C12B50 /* LoginView.swift */,
 				C05CEA2D2AFE61AF00C12B50 /* LoginViewController.swift */,
 			);
-			path = Controller;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C0CEA1882B10D106000349D3 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				C0CEA1892B10D11B000349D3 /* RegisterView.swift */,
+				C0CEA18B2B10D137000349D3 /* RegisterViewController.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,11 +368,19 @@
 				C05CEA2E2AFE61AF00C12B50 /* LoginViewController.swift in Sources */,
 				41239E8F28F840EA00D92C31 /* ViewController.swift in Sources */,
 				41239E8B28F840EA00D92C31 /* AppDelegate.swift in Sources */,
+				C0CEA18A2B10D11B000349D3 /* RegisterView.swift in Sources */,
 				41239E9528F840EB00D92C31 /* AppNotifica.xcdatamodeld in Sources */,
+				C0CEA1802B10D06F000349D3 /* LabelDefault.swift in Sources */,
+				C0CEA18C2B10D137000349D3 /* RegisterViewController.swift in Sources */,
 				C05CEA2A2AFE5ED900C12B50 /* LoginView.swift in Sources */,
 				41239E8D28F840EA00D92C31 /* SceneDelegate.swift in Sources */,
+				C0CEA1842B10D08C000349D3 /* ButtonDefault.swift in Sources */,
+				C0CEA1822B10D080000349D3 /* TextFieldDefault.swift in Sources */,
 				C05CEA322AFE658600C12B50 /* LoginCoordinator.swift in Sources */,
+				C0CEA1862B10D097000349D3 /* ImageDefault.swift in Sources */,
+				C0CEA18E2B10D18F000349D3 /* RegisterCoordinator.swift in Sources */,
 				C05CEA302AFE650200C12B50 /* Coordinator.swift in Sources */,
+				C0CEA17C2B10D03B000349D3 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
