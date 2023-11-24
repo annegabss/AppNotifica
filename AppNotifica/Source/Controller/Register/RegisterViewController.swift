@@ -33,6 +33,10 @@ class RegisterViewController: UIViewController {
         self.title = "Registrar"
            
            self.navigationController?.navigationBar.prefersLargeTitles=true
+           
+           // sumir o botão de voltar em cima
+           
+           self.navigationItem.setHidesBackButton(true, animated: false)
 
        }
 
