@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: ViewControllerDefault {
     
     //MARK: -  Clouseres
     
@@ -30,7 +30,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         self.title = "Home"
         
-        self.navigationController?.navigationBar.prefersLargeTitles=true
         
     }
     

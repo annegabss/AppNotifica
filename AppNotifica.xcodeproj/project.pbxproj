@@ -33,6 +33,7 @@
 		C0CEA1912B10DD43000349D3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1902B10DD43000349D3 /* HomeView.swift */; };
 		C0CEA1932B10DD57000349D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1922B10DD57000349D3 /* HomeViewController.swift */; };
 		C0CEA1952B10DD84000349D3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1942B10DD84000349D3 /* HomeCoordinator.swift */; };
+		C0CEA1992B176DBA000349D3 /* ViewControllerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1982B176DBA000349D3 /* ViewControllerDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		C0CEA1902B10DD43000349D3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C0CEA1922B10DD57000349D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C0CEA1942B10DD84000349D3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		C0CEA1982B176DBA000349D3 /* ViewControllerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 				C0CEA1812B10D080000349D3 /* TextFieldDefault.swift */,
 				C0CEA1832B10D08C000349D3 /* ButtonDefault.swift */,
 				C0CEA1852B10D097000349D3 /* ImageDefault.swift */,
+				C0CEA1982B176DBA000349D3 /* ViewControllerDefault.swift */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 			files = (
 				C05CEA2E2AFE61AF00C12B50 /* LoginViewController.swift in Sources */,
 				41239E8F28F840EA00D92C31 /* ViewController.swift in Sources */,
+				C0CEA1992B176DBA000349D3 /* ViewControllerDefault.swift in Sources */,
 				41239E8B28F840EA00D92C31 /* AppDelegate.swift in Sources */,
 				C0CEA18A2B10D11B000349D3 /* RegisterView.swift in Sources */,
 				41239E9528F840EB00D92C31 /* AppNotifica.xcdatamodeld in Sources */,

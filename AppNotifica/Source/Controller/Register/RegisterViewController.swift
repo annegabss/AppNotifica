@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class RegisterViewController: UIViewController {
+class RegisterViewController: ViewControllerDefault {
    //MARK: - Initialize
     var onLoginTap: (()-> Void)?
 
@@ -32,11 +32,7 @@ class RegisterViewController: UIViewController {
            super.viewDidLoad()
         self.title = "Registrar"
            
-           self.navigationController?.navigationBar.prefersLargeTitles=true
-           
-           // sumir o botão de voltar em cima
-           
-           self.navigationItem.setHidesBackButton(true, animated: false)
+      
 
        }
 
