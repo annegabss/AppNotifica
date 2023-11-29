@@ -34,6 +34,7 @@
 		C0CEA1932B10DD57000349D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1922B10DD57000349D3 /* HomeViewController.swift */; };
 		C0CEA1952B10DD84000349D3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1942B10DD84000349D3 /* HomeCoordinator.swift */; };
 		C0CEA1992B176DBA000349D3 /* ViewControllerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1982B176DBA000349D3 /* ViewControllerDefault.swift */; };
+		C0CEA19B2B177064000349D3 /* ViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA19A2B177064000349D3 /* ViewDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		C0CEA1922B10DD57000349D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C0CEA1942B10DD84000349D3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		C0CEA1982B176DBA000349D3 /* ViewControllerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDefault.swift; sourceTree = "<group>"; };
+		C0CEA19A2B177064000349D3 /* ViewDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 				C0CEA1832B10D08C000349D3 /* ButtonDefault.swift */,
 				C0CEA1852B10D097000349D3 /* ImageDefault.swift */,
 				C0CEA1982B176DBA000349D3 /* ViewControllerDefault.swift */,
+				C0CEA19A2B177064000349D3 /* ViewDefault.swift */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				C0CEA18C2B10D137000349D3 /* RegisterViewController.swift in Sources */,
 				C05CEA2A2AFE5ED900C12B50 /* LoginView.swift in Sources */,
 				41239E8D28F840EA00D92C31 /* SceneDelegate.swift in Sources */,
+				C0CEA19B2B177064000349D3 /* ViewDefault.swift in Sources */,
 				C0CEA1842B10D08C000349D3 /* ButtonDefault.swift in Sources */,
 				C0CEA1822B10D080000349D3 /* TextFieldDefault.swift in Sources */,
 				C05CEA322AFE658600C12B50 /* LoginCoordinator.swift in Sources */,
