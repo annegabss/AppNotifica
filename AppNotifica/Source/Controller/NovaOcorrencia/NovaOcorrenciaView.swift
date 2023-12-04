@@ -8,11 +8,20 @@
 import Foundation
 import UIKit
 class NovaOcorrenciaView: ViewDefault {
+    //MARK: Closures
     
+    var onCameraTap:(()->Void)?
     
     lazy var imagem: UIImageView = {
         let view = UIImageView ()
         view.image = UIImage(named:"imagemCamera")
+        
+        
+        //função que pode ser acionada pelo closure la em cima
+        let tapGR = UITapGestureRecognizer(target: self, action: #selector(cameraTap))
+        
+        view.addGestureRecognizer(tapGR)
+        view.isUserInteractionEnabled = true
         
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
@@ -75,6 +84,13 @@ class NovaOcorrenciaView: ViewDefault {
         
         
         ])
+        
+    }
+    
+    @objc
+    
+    private func cameraTap(){
+        self.onCameraTap?()
         
     }
 }
