@@ -18,7 +18,6 @@ class HomeView: ViewDefault {
     
     
     override func setupVisualElements(){
-        super.setupVisualElements()
     }
     
 }
