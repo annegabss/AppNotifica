@@ -93,4 +93,8 @@ class NovaOcorrenciaView: ViewDefault {
         self.onCameraTap?()
         
     }
+    
+    func setImage (image: UIImage){
+        imagem.image = image
+    }
 }

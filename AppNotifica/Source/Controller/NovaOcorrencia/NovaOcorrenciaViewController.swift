@@ -18,7 +18,8 @@ class NovaOcorrenciaViewController: ViewControllerDefault {
         let novaOcorrenciaView = NovaOcorrenciaView()
         
         novaOcorrenciaView.onCameraTap = {
-            EscolherIamgem().selecionadorImagem(self){ imagem in novaOcorrenciaView.setImage(image: imagem)}
+            EscolherImagem().selecionadorImagem(self){ imagem in novaOcorrenciaView.setImage(image: imagem)
+            }
         }
         
         
