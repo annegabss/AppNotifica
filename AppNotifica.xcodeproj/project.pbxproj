@@ -44,6 +44,8 @@
 		C0CEA1AC2B177E68000349D3 /* SobreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1AB2B177E68000349D3 /* SobreCoordinator.swift */; };
 		C0CEA1AE2B177E7B000349D3 /* NovaOcorrenciaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1AD2B177E7B000349D3 /* NovaOcorrenciaCoordinator.swift */; };
 		C0CEA1B02B1E12DA000349D3 /* EscolherImagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1AF2B1E12DA000349D3 /* EscolherImagem.swift */; };
+		C0CEA1B22B20AA5B000349D3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1B12B20AA5A000349D3 /* HomeViewModel.swift */; };
+		C0CEA1B42B20AAAB000349D3 /* NovaOcorrenciaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CEA1B32B20AAAB000349D3 /* NovaOcorrenciaViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		C0CEA1AB2B177E68000349D3 /* SobreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreCoordinator.swift; sourceTree = "<group>"; };
 		C0CEA1AD2B177E7B000349D3 /* NovaOcorrenciaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaOcorrenciaCoordinator.swift; sourceTree = "<group>"; };
 		C0CEA1AF2B1E12DA000349D3 /* EscolherImagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscolherImagem.swift; sourceTree = "<group>"; };
+		C0CEA1B12B20AA5A000349D3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C0CEA1B32B20AAAB000349D3 /* NovaOcorrenciaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaOcorrenciaViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +280,7 @@
 			children = (
 				C0CEA1902B10DD43000349D3 /* HomeView.swift */,
 				C0CEA1922B10DD57000349D3 /* HomeViewController.swift */,
+				C0CEA1B12B20AA5A000349D3 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 				C0CEA1A32B177E20000349D3 /* NovaOcorrenciaView.swift */,
 				C0CEA1A52B177E39000349D3 /* NovaOcorrenciaViewController.swift */,
 				C0CEA1AF2B1E12DA000349D3 /* EscolherImagem.swift */,
+				C0CEA1B32B20AAAB000349D3 /* NovaOcorrenciaViewModel.swift */,
 			);
 			path = NovaOcorrencia;
 			sourceTree = "<group>";
@@ -468,6 +474,8 @@
 				C0CEA1912B10DD43000349D3 /* HomeView.swift in Sources */,
 				C05CEA302AFE650200C12B50 /* Coordinator.swift in Sources */,
 				C0CEA17C2B10D03B000349D3 /* UIColor+.swift in Sources */,
+				C0CEA1B42B20AAAB000349D3 /* NovaOcorrenciaViewModel.swift in Sources */,
+				C0CEA1B22B20AA5B000349D3 /* HomeViewModel.swift in Sources */,
 				C0CEA1952B10DD84000349D3 /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
