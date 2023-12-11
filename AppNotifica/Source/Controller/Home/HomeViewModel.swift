@@ -11,9 +11,14 @@ import UIKit
 class HomeViewModel{
     
     var coordinator: HomeCoordinator
+    var ocorrencias: [Ocorrencia] = []
     
     init(coordinator: HomeCoordinator){
         self.coordinator = coordinator
+    }
+    
+    func fetchData() {
+        self.ocorrencias = DataManager.shared.ocorrencias
     }
     
     func didTapAdd(){

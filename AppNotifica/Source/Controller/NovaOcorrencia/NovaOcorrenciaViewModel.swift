@@ -14,4 +14,5 @@ class NovaOcorrenciaViewModel {
     init(coordinator: HomeCoordinator){
         self.coordinator = coordinator
     }
+    
 }

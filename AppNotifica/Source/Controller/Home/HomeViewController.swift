@@ -39,10 +39,17 @@ class HomeViewController: ViewControllerDefault {
     func handleAdd(){
         viewModel.didTapAdd()
     }
+    
+    func refreshData{
+        
+    }
     // é executado quando está carregando
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Home"
+        
+       refreshData()
+        
         navigationItem.rightBarButtonItem = .init(title: "Add", style: .plain, target: self, action: #selector(handleAdd))
         
     }

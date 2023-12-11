@@ -40,4 +40,12 @@ class HomeCoordinator: Coordinator {
         navigationController.present(navigationNovaOcorrencia, animated: true)
         
     }
+    //o que vai fazer depois que apertar o botão salvar
+    func continueAfterNovaOcorrencia(){
+        navigationController.dismiss(animated: true)
+        
+        homeViewController.refreshData()
+    }
+    
+    
 }
