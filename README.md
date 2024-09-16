@@ -10,8 +10,7 @@ Este projeto foi feito como projeto final do curso, onde a cada aula uma nova br
 
 
 ## Descrição
-- Aplicativo desenvolvido pelos professores do curso Desenvolvimento de aplicativos utilizando a linguagem Swift do IFB com intuito de permitir que ocorrências sejam registradas e acompanhadas, bem como solucionadas.
-
+Este projeto foi feito como projeto final do curso, onde a cada aula uma nova branch era adicionada de acordo com a matéria aplicada no dia. Ao todo foram 14 aulas onde aprendemos a implantar novas funções ao aplicativo.
 
 
 
@@ -163,6 +162,6 @@ Anne Gabrielly: annegfv@gmail.com
 - Heitor José dos Santos Barros
 - José Dario Pintor da Silva
 - Tiago Henrique Faccio Segato
-- 
+- Estudante: Anne Gabrielly França Viana
 
 
